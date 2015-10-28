@@ -6,8 +6,7 @@
 </head>
 <body>
 <h1>
-	Hello world!  수정2
-	뭐지이건?
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
