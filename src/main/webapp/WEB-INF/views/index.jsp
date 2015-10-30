@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -65,12 +67,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                                 <div class="main-menu">
                                     <ul>
                                     
-                                        <li><a href="index.html"><font size = 3>단기카풀</font></a></li>
-                                        <li><a href="about-us.html"><font size = 3>장기카풀</font></a></li>
-                                        <li><a href="products.html"><font size = 3>고 스쿨</font></a></li>
-                                        <li><a href="contact-us.html"><font size = 3>택시카풀</font></a></li>
-                                        <li><a href="contact-us.html"><font size = 3>커뮤니티</font></a></li>
-                                         <li><a href="contact-us.html"><font size = 3>고객센터</font></a></li>
+                                        <li><a href="index"><font size = 3>단기카풀</font></a></li>
+                                        <li><a href="about-us"><font size = 3>장기카풀</font></a></li>
+                                        <li><a href="products"><font size = 3>고 스쿨</font></a></li>
+                                        <li><a href="contact-us"><font size = 3>택시카풀</font></a></li>
+                                        <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
+                                         <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
                                     </ul>
                                 </div>
                             </div>
