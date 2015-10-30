@@ -122,15 +122,15 @@ http://www.templatemo.com/free-website-templates/417-grill
                     </div>
                     
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                         	<h3>Our Company</h3>
                             <p>Nulla sodales ut tellus blandit accumsan. Aliquam erat volutpat. Morbi quis vestibulum erat. Nam malesuada lobortis tempus. Fusce fermentum libero fringilla odio pharetra malesuada. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultrices lectus quis consequat fringilla. Mauris non ex et purus sollicitudin tempus vitae quis nisi.</p>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                         	<div id="map_div"></div>
-							<div style="border: 1px solid gold; padding: 10px; width : 600px; min-height: 100px; overflow: auto;">
+							<div style="border: 1px solid gold; padding: 10px; width : 650px; min-height: 100px; overflow: auto;">
 								<div style="width : 120px"> 출발<input type="text" id="loc1"></div>
-								<div style="width : 600px;">
+								<div style="width : 650px;">
 								<div style="width : 120px" class="path"> 경유지1<input type="text" id="pass1"></div>
 								<div style="width : 120px" class="path">경유지2<input type="text" id="pass2"></div>
 								<div style="width : 120px" class="path">경유지3<input type="text" id="pass3"></div>
