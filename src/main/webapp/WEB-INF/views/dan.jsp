@@ -31,6 +31,11 @@ http://www.templatemo.com/free-website-templates/417-grill
         <script type="text/javascript"	src="https://apis.skplanetx.com/tmap/js?version=1&format=javascript&appKey=5d5accbf-7745-315f-9ccc-fedc53a0f0b1"></script>
 		<script src="js/jquery-2.1.4.js"></script>
 		<script src="js/routes.js"></script>
+		<style>
+			.path{
+				float: left;
+			}
+		</style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -126,11 +131,11 @@ http://www.templatemo.com/free-website-templates/417-grill
 							<div style="border: 1px solid gold; padding: 10px; width : 600px; min-height: 100px; overflow: auto;">
 								<div style="width : 120px"> 출발<input type="text" id="loc1"></div>
 								<div style="width : 600px;">
-								<div style="width : 120px"> 경유지1<input type="text" id="pass1"></div>
-								<div style="width : 120px">경유지2<input type="text" id="pass2"></div>
-								<div style="width : 120px">경유지3<input type="text" id="pass3"></div>
-								<div style="width : 120px">경유지4<input type="text" id="pass4"></div>
-								<div style="width : 120px">경유지5<input type="text" id="pass5"></div>
+								<div style="width : 120px" class="path"> 경유지1<input type="text" id="pass1"></div>
+								<div style="width : 120px" class="path">경유지2<input type="text" id="pass2"></div>
+								<div style="width : 120px" class="path">경유지3<input type="text" id="pass3"></div>
+								<div style="width : 120px" class="path">경유지4<input type="text" id="pass4"></div>
+								<div style="width : 120px" class="path">경유지5<input type="text" id="pass5"></div>
 								</div>
 								<div style="width : 120px"> 도착<input type="text" id="loc3"></div>
 							    <button>경로검색</button><hr>
