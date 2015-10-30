@@ -9,23 +9,20 @@
 	<script src="/withgo/js/routes.js"></script>
 </head>
 <body>
-<h1>
-
-	수정55555555555555555555555555
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
-<P>
-	안녕하세요!!!
-</P>
-<h1>
-
-	수정55555555555555555555555555
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
-<P>
-	안녕하세요!!!
-</P>
+<div id="map_div"></div>
+	<br>
+	<input type="text" id="loc1">
+	<br>
+	<input type="text" id="pass1">
+	<input type="text" id="pass2">
+	<input type="text" id="pass3">
+	<input type="text" id="pass4">
+	<input type="text" id="pass5">
+	<br>
+	<input type="text" id="loc3">
+	<button>경로검색</button><hr>
+	거리 : <span id="meter"></span><br>
+	시간 : <span id="time"></span><br>
+	금액 : <span id="money"></span><br>
 </body>
 </html>
