@@ -81,7 +81,7 @@ $(function(){
 			    
 				var size = new Tmap.Size(22,30);
 			    var offset = new Tmap.Pixel(-(size.w/2), -(size.h));
-			    var icon = new Tmap.IconHtml("<img src= 'img/ico_spot.png'></img>", size, offset); 
+			    var icon = new Tmap.IconHtml("<img src= 'assets/images/ico_spot.png'></img>", size, offset); 
 			    marker1 = new Tmap.Marker(lonlat, icon);
 			    markerLayer.addMarker(marker1); 		
 			}
@@ -116,7 +116,7 @@ $(function(){
 			
 				var size = new Tmap.Size(22,30);
 			    var offset = new Tmap.Pixel(-(size.w/2), -(size.h));
-			    var icon = new Tmap.IconHtml("<img src= 'img/ico_spot.png'></img>", size, offset); 
+			    var icon = new Tmap.IconHtml("<img src= 'assets/images/ico_spot.png'></img>", size, offset); 
 			    markerp1 = new Tmap.Marker(lonlat, icon);
 			    markerLayer.addMarker(markerp1);			    
 			}
@@ -150,7 +150,7 @@ $(function(){
 			    
 			    var size = new Tmap.Size(22,30);
 			    var offset = new Tmap.Pixel(-(size.w/2), -(size.h));
-			    var icon = new Tmap.IconHtml("<img src= 'img/ico_spot.png'></img>", size, offset); 
+			    var icon = new Tmap.IconHtml("<img src= 'assets/images/ico_spot.png'></img>", size, offset); 
 			    markerp2 = new Tmap.Marker(lonlat, icon);
 			    markerLayer.addMarker(markerp2);			    
 			}
@@ -184,7 +184,7 @@ $(function(){
 			   	
 			   	var size = new Tmap.Size(22,30);
 			    var offset = new Tmap.Pixel(-(size.w/2), -(size.h));
-			    var icon = new Tmap.IconHtml("<img src= 'img/ico_spot.png'></img>", size, offset); 
+			    var icon = new Tmap.IconHtml("<img src= 'assets/images/ico_spot.png'></img>", size, offset); 
 			    markerp3 = new Tmap.Marker(lonlat, icon);
 			    markerLayer.addMarker(markerp3);			    
 			}
