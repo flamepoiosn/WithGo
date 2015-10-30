@@ -2,17 +2,27 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+ <meta charset="UTF-8">
+ <title>home test</title>
+	<script type="text/javascript"	src="https://apis.skplanetx.com/tmap/js?version=1&format=javascript&appKey=5d5accbf-7745-315f-9ccc-fedc53a0f0b1"></script>
+	<script src="/withgo/js/jquery-2.1.4.js"></script>
+	<script src="/withgo/js/routes.js"></script>
 </head>
 <body>
-<h1>
-	Hello world!  수정2
-	뭐지이건?dfsfn 수정 3
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
-<P>
-	안녕하세요!!!
-</P>
+<div id="map_div"></div>
+	<br>
+	<input type="text" id="loc1">
+	<br>
+	<input type="text" id="pass1">
+	<input type="text" id="pass2">
+	<input type="text" id="pass3">
+	<input type="text" id="pass4">
+	<input type="text" id="pass5">
+	<br>
+	<input type="text" id="loc3">
+	<button>경로검색</button><hr>
+	거리 : <span id="meter"></span><br>
+	시간 : <span id="time"></span><br>
+	금액 : <span id="money"></span><br>
 </body>
 </html>
