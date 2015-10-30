@@ -14,7 +14,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 -->
     <head>
         <meta charset="utf-8">
-        <title>Grill Responsive Web Template</title>
+        <title>main</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
@@ -63,16 +63,23 @@ http://www.templatemo.com/free-website-templates/417-grill
                                
                                 </div>
                             </div>
+                            
+                            
                             <div class="col-md-7">
                                 <div class="main-menu">
                                     <ul>
                                     
                                         <li><a href="dan"><font size = 3>단기카풀</font></a></li>
+                                        
                                         <li><a href="about-us"><font size = 3>장기카풀</font></a></li>
+                                        
                                         <li><a href="products"><font size = 3>고 스쿨</font></a></li>
+                                        
                                         <li><a href="contact-us"><font size = 3>택시카풀</font></a></li>
+                                        
                                         <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
-                                         <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
+                                        
+                                        <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
                                     </ul>
                                 </div>
                             </div>

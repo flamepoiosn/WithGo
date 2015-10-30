@@ -7,9 +7,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <!-- 
 
-Grill Template 
-
-http://www.templatemo.com/free-website-templates/417-grill
+//////////////////////고스쿨///////////////////////////
 
 -->
     <head>

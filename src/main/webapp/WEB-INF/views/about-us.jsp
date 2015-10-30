@@ -7,14 +7,21 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <!-- 
 
-Grill Template 
-
-http://www.templatemo.com/free-website-templates/417-grill
+/////////////////////////////////////////장 기 카 풀////////////////////////////////////////////////////
 
 -->
+	<style>
+	@import url (http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	body{
+	font-family : '맑은 고딕';
+	}
+	
+	</style>
+
+
     <head>
         <meta charset="utf-8">
-        <title>About - Grill Template</title>
+        <title>long carpool</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
@@ -65,12 +72,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                             <div class="col-md-7">
                                 <div class="main-menu">
                                     <ul>
-                                       <li><a href="dan"><font size = 3>단기카풀</font></a></li>
-                                        <li><a href="about-us"><font size = 3>장기카풀</font></a></li>
-                                        <li><a href="products"><font size = 3>고 스쿨</font></a></li>
-                                        <li><a href="contact-us"><font size = 3>택시카풀</font></a></li>
-                                        <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
-                                         <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
+                                        <li><a href="index.html"><font size = 3>단기카풀</font></a></li>
+                                        <li><a href="about-us.html"><font size = 3>장기카풀</font></a></li>
+                                        <li><a href="products.html"><font size = 3>고 스쿨</font></a></li>
+                                        <li><a href="contact-us.html"><font size = 3>택시카풀</font></a></li>
+                                        <li><a href="contact-us.html"><font size = 3>커뮤니티</font></a></li>
+                                         <li><a href="contact-us.html"><font size = 3>고객센터</font></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -104,112 +111,61 @@ http://www.templatemo.com/free-website-templates/417-grill
 
             <div id="timeline-post">
                 <div class="container">
+
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section">
-                                <h2>Who We Are</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
+                        <div class="col-md-2">
+                        	<fieldset> 
+							<legend> 
+							 빠른검색
+				 			</legend> 
+				 			<form action="./example2.php" method="GET"> 
+				 				<p> 
+				 					카풀 : 
+				 					<select name="type"> 
+				 						<option value="short">단기카풀</option> 
+				 						<option value="long">장기카풀</option> 
+				 						<option value="taxi">택시카풀</option> 
+				 						<option value="school">고스쿨</option> 
+									</select> 
+				 				 
+				 				
+				 				
+				 				<div>
+								         성별 :
+								    <input name="ss" id="ss" type="radio" checked="" value="1"><span>남자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>여자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>모두</span> <br>
+								    <br>
+				                                            인증 여부 :				 
+								    <input name="sss" id="sss" type="checkbox" checked="" value="3"><span>휴대전화 인증</span>
+								    <input name="sss" id="sss" type="checkbox" value="3"><span>페이스북 인증</span><br>
+								    <br>
+								         흡연 여부 :
+								    <input name="ss" id="ss" type="radio" checked="" value="2"><span>흡연 가능</span>
+								    <input name="ss" id="ss" type="radio" value="2"><span>흡연 불가</span> <br>
+				 
+								    
+							</div>
+							</p>
+				 				<input type="submit" value="검색하기"/> 
+				 			</form> 
+				 		</fieldset>  
                         </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-6">
-                        	<h3>Our Company</h3>
-                            <p>Nulla sodales ut tellus blandit accumsan. Aliquam erat volutpat. Morbi quis vestibulum erat. Nam malesuada lobortis tempus. Fusce fermentum libero fringilla odio pharetra malesuada. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultrices lectus quis consequat fringilla. Mauris non ex et purus sollicitudin tempus vitae quis nisi.</p>
-                        </div>
-                        <div class="col-md-6">
-                        	<h3>Team Management</h3>
-                            <p>Suspendisse quis consectetur nisi, vitae consequat sem. In et quam id libero venenatis venenatis. Morbi vitae justo vulputate, auctor augue eu, pulvinar augue. Vestibulum placerat sem eu posuere laoreet. Ut ac ex nec urna maximus tristique interdum eget ipsum. Duis at pharetra neque, ut condimentum ex. Nunc tincidunt magna nec aliquam rhoncus. Morbi a posuere nunc.</p>
+                        <div class="col-md-10">
+                        <h3>목록</h3>
+                            <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>	
+                           
                         </div>
                     </div>
                     
                     <div class="space50"></div>
                     
-                    <div class="row">
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline1.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Breakfast</h4></a>
-                                        <p>7:30 AM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline2.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Lunch</h4></a>
-                                        <p>11:20 AM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline3.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Lunch</h4></a>
-                                        <p>1:00 PM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline4.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Dinner</h4></a>
-                                        <p>6:30 PM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline5.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Dinner</h4></a>
-                                        <p>8:20 PM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="timeline-thumb">
-                                <div class="thumb">
-                                    <img src="images/timeline6.jpg" alt="">
-                                </div>
-                                <div class="overlay">
-                                    <div class="timeline-caption">
-                                        <a href="#"><h4>Dinner</h4></a>
-                                        <p>9:10 PM</p>
-                                     </div>
-                                 </div>
-                             </div>
-                        </div>
-                    </div>
+               
                 </div>
             </div>
 
 
+           <!-- 
             <div id="our-team">
                 <div class="container">
                     <div class="row">
@@ -306,12 +262,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                     </div>
                 </div>
             </div>
+ 			-->
 
 
 
 
-
-
+			<!-- 
             <div id="testimonails">
                 <div class="container">
                     <div class="row">
@@ -350,7 +306,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                     </div>
                 </div>
             </div>
-
+			-->
 
 
             <footer>
@@ -359,7 +315,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="row">
                             <div class="col-md-9">
                                 <div class="subscribe-form">
-                                    <span>Get in touch with us</span>
+                                    <span>"위드고"</span>
                                     <form method="get" class="subscribeForm">
                                         <input id="subscribe" type="text" />
                                         <input type="submit" id="submitButton" />
@@ -382,24 +338,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="about">
-                                    <h4 class="footer-title">About Grill</h4>
-                                    <p>Grill is free HTML5 template by <span class="blue">template</span><span class="green">mo</span> and it is a free responsive bootstrap layout that can be applied for any purpose.
-                                    <br><br>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for photos used in this template. Nam commodo erat quis ligula placerat viverra.</p>
+                                    <h4 class="footer-title">위드고란?</h4>
+                                    <p>목적지가 동일하거나 같은 방향인 운전자들이 통행 <span class="blue">비용의 절감</span><span class="green">을</span>위하여 한 대의 승용차에 동승하여 통행하는 일을 보다 편리하고 안전하게 도와주는 웹사이트 입니다.
+                                    <hr><br><br>문의메일 <a rel="nofollow" href="http://unsplash.com">abcd@gmail.com</a><br>업무시간 : 평일 오전 8시~오후 5시(주말,공휴일 휴무) .</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="shop-list">
-                                    <h4 class="footer-title">Shop Categories</h4>
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>New Grill Menu</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Healthy Fresh Juices</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Spicy Delicious Meals</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Simple Italian Pizzas</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Pure Good Yogurts</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Ice-cream for kids</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-3">
                                 <div class="recent-posts">
                                     <h4 class="footer-title">Recent posts</h4>
@@ -426,7 +370,11 @@ http://www.templatemo.com/free-website-templates/417-grill
                             <div class="col-md-3">
                                 <div class="more-info">
                                     <h4 class="footer-title">More info</h4>
-                                    <p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>
+                                    <p>사업자 등록번호 : 206-86-64536<br>
+									       사업자정보확인 : 사업자정보확인<br>
+										통신판매업 신고번호 : 제2014-서울중구-0427호<br>
+										주소 : 서울 중구 필동2가 82-1 동국대학교<Br>충무로관 신관 
+                                    .</p>
                                     <ul>
                                         <li><i class="fa fa-phone"></i>010-020-0340</li>
                                         <li><i class="fa fa-globe"></i>123 Dagon Studio, Yakin Street, Digital Estate</li>
@@ -437,7 +385,10 @@ http://www.templatemo.com/free-website-templates/417-grill
                         </div>
                     </div>
                     <div class="bottom-footer">
-                        <p>Copyright © 2084 <a href="#">Your Company Name</a></p>
+                        <p>
+                        	<span>Copyright © 2084 <a href="#">Your Company Name</a> 
+                            | Design: <a rel="nofollow" href="http://www.templatemo.com" target="_parent"><span class="blue">template</span><span class="green">mo</span></a></span>
+                        </p>
                     </div>
                     
                 </div>
