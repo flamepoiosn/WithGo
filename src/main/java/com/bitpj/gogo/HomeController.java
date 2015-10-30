@@ -32,5 +32,10 @@ public class HomeController {
 	public String index(){
 		return "index";
 	}
+	
+	@RequestMapping("dan")
+	public String dan(){
+		return "dan";
+	}
 }
 
