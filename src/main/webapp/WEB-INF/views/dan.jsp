@@ -28,6 +28,9 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/testimonails-slider.css">
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script type="text/javascript"	src="https://apis.skplanetx.com/tmap/js?version=1&format=javascript&appKey=5d5accbf-7745-315f-9ccc-fedc53a0f0b1"></script>
+		<script src="js/jquery-2.1.4.js"></script>
+		<script src="js/routes.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -114,17 +117,30 @@ http://www.templatemo.com/free-website-templates/417-grill
                     </div>
                     
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                         	<h3>Our Company</h3>
                             <p>Nulla sodales ut tellus blandit accumsan. Aliquam erat volutpat. Morbi quis vestibulum erat. Nam malesuada lobortis tempus. Fusce fermentum libero fringilla odio pharetra malesuada. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultrices lectus quis consequat fringilla. Mauris non ex et purus sollicitudin tempus vitae quis nisi.</p>
                         </div>
-                        <div class="col-md-6">
-                        	<h3>Team Management</h3>
-                            <p>Suspendisse quis consectetur nisi, vitae consequat sem. In et quam id libero venenatis venenatis. Morbi vitae justo vulputate, auctor augue eu, pulvinar augue. Vestibulum placerat sem eu posuere laoreet. Ut ac ex nec urna maximus tristique interdum eget ipsum. Duis at pharetra neque, ut condimentum ex. Nunc tincidunt magna nec aliquam rhoncus. Morbi a posuere nunc.</p>
-                        </div>
+                        <div class="col-md-9">
+                        	<div id="map_div"></div>
+							<br>
+							<input type="text" id="loc1">
+							<br>
+							<input type="text" id="pass1">
+							<input type="text" id="pass2">
+							<input type="text" id="pass3">
+							<input type="text" id="pass4">
+							<input type="text" id="pass5">
+							<br>
+							<input type="text" id="loc3">
+							<button>경로검색</button><hr>
+							거리 : <span id="meter"></span><br>
+							시간 : <span id="time"></span><br>
+							금액 : <span id="money"></span><br>
+						                        </div>
                     </div>
                     
-                    <div class="space50"></div>
+                   <!--  <div class="space50"></div>
                     
                     <div class="row">
                         <div class="col-md-2 col-sm-4">
@@ -206,8 +222,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                              </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>-->
+            </div> 
 
 
             <div id="our-team">
