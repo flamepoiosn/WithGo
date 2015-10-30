@@ -123,21 +123,22 @@ http://www.templatemo.com/free-website-templates/417-grill
                         </div>
                         <div class="col-md-9">
                         	<div id="map_div"></div>
-							<br>
-							<input type="text" id="loc1">
-							<br>
-							<input type="text" id="pass1">
-							<input type="text" id="pass2">
-							<input type="text" id="pass3">
-							<input type="text" id="pass4">
-							<input type="text" id="pass5">
-							<br>
-							<input type="text" id="loc3">
-							<button>경로검색</button><hr>
-							거리 : <span id="meter"></span><br>
-							시간 : <span id="time"></span><br>
-							금액 : <span id="money"></span><br>
-						                        </div>
+							<div style="border: 1px solid gold; padding: 10px; width : 600px; min-height: 100px; overflow: auto;">
+								<div style="width : 120px"> 출발<input type="text" id="loc1"></div>
+								<div style="width : 600px;">
+								<div style="width : 120px"> 경유지1<input type="text" id="pass1"></div>
+								<div style="width : 120px">경유지2<input type="text" id="pass2"></div>
+								<div style="width : 120px">경유지3<input type="text" id="pass3"></div>
+								<div style="width : 120px">경유지4<input type="text" id="pass4"></div>
+								<div style="width : 120px">경유지5<input type="text" id="pass5"></div>
+								</div>
+								<div style="width : 120px"> 도착<input type="text" id="loc3"></div>
+							    <button>경로검색</button><hr>
+								거리 : <span id="meter"></span><br>
+								시간 : <span id="time"></span><br>
+								금액 : <span id="money"></span><br>
+						   </div>
+						</div>
                     </div>
                     
                    <!--  <div class="space50"></div>
@@ -221,8 +222,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                                  </div>
                              </div>
                         </div>
-                    </div>
-                </div>-->
+                    </div>-->
+                </div>
             </div> 
 
 
