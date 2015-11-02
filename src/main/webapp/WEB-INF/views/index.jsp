@@ -103,21 +103,20 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <li>
                         <div class="slider-caption">
                             <h1>Play,WITH GO</h1>
-                            <p>wi
-                            <br><br>eget tellus luctus fermentum.</p>
-                            <a href="single-post.html">Shop Now</a>
+                            <p>바쁜아침 ! 위드고와 함께하세요
+                            </p>
+                           
                         </div>
-                      <img src="images/z1.jpg" width="300" height="500"alt="" />
+                      <img src="images/car6.jpg" width="300" height="500"alt="" />
                     </li>
                     
                     <li>
                         <div class="slider-caption">
-                            <h1>WITH GO</h1>
-                            <p>Maecenas fermentum est ut elementum vulputate. Ut vel consequat urna. Ut aliquet 
-                            <br><br>ornare massa, quis dapibus quam condimentum id.</p>
-                            <a href="single-post.html">Get Ready</a>
+                            <h1>play,WITH GO</h1>
+                            <p>바쁜아침 ! 위드고와 함께하세요</p>
+                            
                         </div>
-                      <img src="images/z5.jpg"width="300" height="500" alt="" />
+                      <img src="images/car8.jpg"width="300" height="500" alt="" />
                     </li>
                   </ul>
                 </div>
