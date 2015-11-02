@@ -73,9 +73,9 @@
                                 <div class="main-menu">
                                     <ul>
                                         <li><a href="index.html"><font size = 3>단기카풀</font></a></li>
-                                        <li><a href="about-us.html"><font size = 3>장기카풀</font></a></li>
-                                        <li><a href="products.html"><font size = 3>고 스쿨</font></a></li>
-                                        <li><a href="contact-us.html"><font size = 3>택시카풀</font></a></li>
+                                        <li><a href="jang.html"><font size = 3>장기카풀</font></a></li>
+                                        <li><a href="goschool.html"><font size = 3>고 스쿨</font></a></li>
+                                        <li><a href="taxi.html"><font size = 3>택시카풀</font></a></li>
                                         <li><a href="contact-us.html"><font size = 3>커뮤니티</font></a></li>
                                          <li><a href="contact-us.html"><font size = 3>고객센터</font></a></li>
                                     </ul>
@@ -101,7 +101,7 @@
                         <div class="col-md-12">
                             <div class="heading-content">
                                 <h2>About Us</h2>
-                                <span>Home / <a href="about-us.html">About us</a></span>
+                                <span>Home / <a href="jang.html">About us</a></span>
                             </div>
                         </div>
                     </div>

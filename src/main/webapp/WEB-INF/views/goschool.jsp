@@ -12,7 +12,7 @@
 -->
     <head>
         <meta charset="utf-8">
-        <title>Products - Grill Template</title>
+        <title>goschool - Grill Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">                    
         
@@ -65,9 +65,9 @@
                                     <ul>
                                        
                                        <li><a href="dan"><font size = 3>단기카풀</font></a></li>
-                                        <li><a href="about-us"><font size = 3>장기카풀</font></a></li>
-                                        <li><a href="products"><font size = 3>고 스쿨</font></a></li>
-                                        <li><a href="contact-us"><font size = 3>택시카풀</font></a></li>
+                                        <li><a href="jang"><font size = 3>장기카풀</font></a></li>
+                                        <li><a href="goschool"><font size = 3>고 스쿨</font></a></li>
+                                        <li><a href="taxi"><font size = 3>택시카풀</font></a></li>
                                         <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
                                          <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
                                     </ul>
@@ -92,8 +92,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Our Products</h2>
-                                <span>Home / <a href="about-us.html">Products</a></span>
+                                <h2>Our goschool</h2>
+                                <span>Home / <a href="jang.html">goschool</a></span>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
 
 
 
-            <div id="products-post">
+            <div id="goschool-post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

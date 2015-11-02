@@ -67,9 +67,9 @@ http://www.templatemo.com/free-website-templates/417-grill
                                     <ul>
                                          
                                         <li><a href="dan"><font size = 3>단기카풀</font></a></li>
-                                        <li><a href="about-us"><font size = 3>장기카풀</font></a></li>
-                                        <li><a href="products"><font size = 3>고 스쿨</font></a></li>
-                                        <li><a href="contact-us"><font size = 3>택시카풀</font></a></li>
+                                        <li><a href="jang"><font size = 3>장기카풀</font></a></li>
+                                        <li><a href="goschool"><font size = 3>고 스쿨</font></a></li>
+                                        <li><a href="taxi"><font size = 3>택시카풀</font></a></li>
                                         <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
                                          <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
                                     </ul>
@@ -95,7 +95,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="col-md-12">
                             <div class="heading-content">
                                 <h2>Contact Us</h2>
-                                <span>Home / <a href="contact-us.html">Contact Us</a></span>
+                                <span>Home / <a href="taxi.html">Contact Us</a></span>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                             </div>
                         </div>
                     </div>
-                    <div id="contact-us">
+                    <div id="taxi">
                         <div class="container">
                             <div class="row">
                                 <div class="product-item col-md-12">
