@@ -13,19 +13,19 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("about-us")
+	@RequestMapping("jang")
 	public String aboutUs(){
-		return "about-us";
+		return "jang";
 	}
 	
-	@RequestMapping("products")
+	@RequestMapping("goschool")
 	public String products(){
-		return "products";
+		return "goschool";
 	}
 	
-	@RequestMapping("contact-us")
+	@RequestMapping("taxi")
 	public String contactUs(){
-		return "contact-us";
+		return "taxi";
 	}
 	
 	@RequestMapping("index")
