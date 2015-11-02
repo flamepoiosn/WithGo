@@ -77,7 +77,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                                         <li><a href="jang"><font size = 3>장기카풀</font></a></li>
                                         <li><a href="goschool"><font size = 3>고 스쿨</font></a></li>
                                         <li><a href="taxi"><font size = 3>택시카풀</font></a></li>
-                              <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
+                                        <li><a href="contact-us"><font size = 3>커뮤니티</font></a></li>
                                          <li><a href="contact-us"><font size = 3>고객센터</font></a></li>
                                     </ul>
                                 </div>
