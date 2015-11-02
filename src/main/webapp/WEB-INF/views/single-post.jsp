@@ -323,7 +323,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="row">
                             <div class="col-md-9">
                                 <div class="subscribe-form">
-                                    <span>Get in touch with us</span>
+                                    <span>"위드고"</span>
                                     <form method="get" class="subscribeForm">
                                         <input id="subscribe" type="text" />
                                         <input type="submit" id="submitButton" />
@@ -346,24 +346,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="about">
-                                    <h4 class="footer-title">About Grill</h4>
-                                    <p>Grill is free HTML5 template by <span class="blue">template</span><span class="green">mo</span> and it is a free responsive bootstrap layout that can be applied for any purpose.
-                                    <br><br>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for photos used in this template. Nam commodo erat quis ligula placerat viverra.</p>
+                                    <h4 class="footer-title">위드고란?</h4>
+                                    <p>목적지가 동일하거나 같은 방향인 운전자들이 통행 <span class="blue">비용의 절감</span><span class="green">을</span>위하여 한 대의 승용차에 동승하여 통행하는 일을 보다 편리하고 안전하게 도와주는 웹사이트 입니다.
+                                    <hr><br><br>문의메일 <a rel="nofollow" href="http://unsplash.com">abcd@gmail.com</a><br>업무시간 : 평일 오전 8시~오후 5시(주말,공휴일 휴무) .</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="shop-list">
-                                    <h4 class="footer-title">Shop Categories</h4>
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>New Grill Menu</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Healthy Fresh Juices</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Spicy Delicious Meals</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Simple Italian Pizzas</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Pure Good Yogurts</a></li>
-                                        <li><a href="#"><i class="fa fa-angle-right"></i>Ice-cream for kids</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-3">
                                 <div class="recent-posts">
                                     <h4 class="footer-title">Recent posts</h4>
@@ -390,7 +378,11 @@ http://www.templatemo.com/free-website-templates/417-grill
                             <div class="col-md-3">
                                 <div class="more-info">
                                     <h4 class="footer-title">More info</h4>
-                                    <p>Sed dignissim, diam id molestie faucibus, purus nisl pretium quam, in pulvinar velit massa id elit.</p>
+                                    <p>사업자 등록번호 : 206-86-64536<br>
+									       사업자정보확인 : 사업자정보확인<br>
+										통신판매업 신고번호 : 제2014-서울중구-0427호<br>
+										주소 : 서울 중구 필동2가 82-1 동국대학교<Br>충무로관 신관 
+                                    .</p>
                                     <ul>
                                         <li><i class="fa fa-phone"></i>010-020-0340</li>
                                         <li><i class="fa fa-globe"></i>123 Dagon Studio, Yakin Street, Digital Estate</li>
@@ -401,7 +393,10 @@ http://www.templatemo.com/free-website-templates/417-grill
                         </div>
                     </div>
                     <div class="bottom-footer">
-                        <p>Copyright © 2084 <a href="#">Your Company Name</a></p>
+                        <p>
+                        	<span>Copyright © 2084 <a href="#">Your Company Name</a> 
+                            | Design: <a rel="nofollow" href="http://www.templatemo.com" target="_parent"><span class="blue">template</span><span class="green">mo</span></a></span>
+                        </p>
                     </div>
                     
                 </div>
