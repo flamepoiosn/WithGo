@@ -14,17 +14,17 @@ public class HomeController {
 	}
 	
 	@RequestMapping("jang")
-	public String aboutUs(){
+	public String jang(){
 		return "jang";
 	}
 	
 	@RequestMapping("goschool")
-	public String products(){
+	public String goschool(){
 		return "goschool";
 	}
 	
 	@RequestMapping("taxi")
-	public String contactUs(){
+	public String taxi(){
 		return "taxi";
 	}
 	
@@ -36,6 +36,16 @@ public class HomeController {
 	@RequestMapping("dan")
 	public String dan(){
 		return "dan";
+	}
+	
+	@RequestMapping("community")
+	public String school(){
+		return "community";
+	}
+	
+	@RequestMapping("callcenter")
+	public String callcenter(){
+		return "callcenter";
 	}
 }
 
