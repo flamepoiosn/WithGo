@@ -271,7 +271,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                                 <div class="about">
                                     <h4 class="footer-title">위드고란?</h4>
                                     <p>목적지가 동일하거나 같은 방향인 운전자들이 통행 <span class="blue">비용의 절감</span><span class="green">을</span>위하여 한 대의 승용차에 동승하여 통행하는 일을 보다 편리하고 안전하게 도와주는 웹사이트 입니다.
-                                    <hr><br><br>문의메일 <a rel="nofollow" href="http://unsplash.com">abcd@gmail.com</a><br>업무시간 : 평일 오전 8시~오후 5시(주말,공휴일 휴무) .</p>
+                                    <hr><br><br>문의메일: <a rel="nofollow" href="http://unsplash.com">abcd@gmail.com</a><br>업무시간 : 평일 오전 8시~오후 5시(주말,공휴일 휴무) .</p>
                                 </div>
                             </div>
                             
