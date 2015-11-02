@@ -26,7 +26,12 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/templatemo_misc.css">
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/testimonails-slider.css">
-
+		<style>
+		#heading {
+		  background-image: url(images/tax.png);
+		  height: 140px;
+		}
+		</style>
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -94,8 +99,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Contact Us</h2>
-                                <span>Home / <a href="taxi.html">Contact Us</a></span>
+                                <h2>TAXI CARPOOL</h2>
+                                <span>Home / <a href="taxi.html">TAXI</a></span>
                             </div>
                         </div>
                     </div>
@@ -108,8 +113,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-section">
-                                <h2>Feel free to send a message</h2>
-                                <img src="images/under-heading.png" alt="" >
+                                <h2></h2>
+                                <img src="" alt="" >
                             </div>
                         </div>
                     </div>

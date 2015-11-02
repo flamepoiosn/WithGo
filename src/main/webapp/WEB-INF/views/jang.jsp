@@ -15,6 +15,11 @@
 	body{
 	font-family : '맑은 고딕';
 	}
+		
+		#heading {
+		  background-image: url(images/slide1.jpg);
+		  height: 140px;
+		}
 	
 	</style>
 
@@ -95,19 +100,19 @@
             </header>
 
 
-            <!-- <div id="heading">
+             <div id="heading">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>About Us</h2>
-                                <span>Home / <a href="jang.html">About us</a></span>
+                                <h2>Long-term carpool</h2>
+                                <span>Home / <a href="jang.html">장기카풀</a></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
- -->
+
 
             <div id="timeline-post">
                 <div class="container">

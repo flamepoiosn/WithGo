@@ -148,15 +148,11 @@ p {
 
 /*-- Heading --*/
 
-#heading {
-  background-image: url(../images/bg-image.jpg);
-  height: 140px;
-}
 
 #heading h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
 }
 

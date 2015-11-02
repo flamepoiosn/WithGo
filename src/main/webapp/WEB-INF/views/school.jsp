@@ -27,6 +27,13 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/testimonails-slider.css">
 
+<style>
+#heading {
+		  background-image: url(images/board.png);
+		  height: 140px;
+		}
+
+</style>
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -94,7 +101,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Contact Us</h2>
+                                <h2>Con</h2>
                                 <span>Home / <a href="contact-us.html">Contact Us</a></span>
                             </div>
                         </div>

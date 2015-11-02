@@ -24,6 +24,17 @@
         <link rel="stylesheet" href="css/templatemo_misc.css">
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/testimonails-slider.css">
+<style>
+
+		#heading {
+		  background-image: url(images/board.png);
+		  height: 140px;
+		}
+
+</style>
+
+
+
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
@@ -92,8 +103,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Our goschool</h2>
-                                <span>Home / <a href="jang.html">goschool</a></span>
+                                <h2>goschool</h2>
+                                <span>Home / <a href="goschool.html">고스쿨</a></span>
                             </div>
                         </div>
                     </div>
@@ -109,11 +120,12 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div id="product-heading">
-                                <h2>Hungry ?</h2>
-                                <img src="images/under-heading.png" alt="" >
+                                <h2></h2>
+                                <img src="" alt="" >
                             </div>
                         </div>
                     </div>
+                    <!--  
                     <div class="row">
                         <div class="filters col-md-12 col-xs-12">
                             <ul id="filters" class="clearfix">
@@ -345,7 +357,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>     
+                    </div>    --> 
                 </div>
             </div>
 

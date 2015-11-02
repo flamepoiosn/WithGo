@@ -35,6 +35,11 @@ http://www.templatemo.com/free-website-templates/417-grill
 			.path{
 				float: left;
 			}
+			
+		#heading {
+		  background-image: url(images/br2.jpg);
+		  height: 140px;
+		}
 		</style>
     </head>
     <body>
@@ -96,19 +101,19 @@ http://www.templatemo.com/free-website-templates/417-grill
             </header>
 
 
-            <!-- <div id="heading">
+           <div id="heading">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>About Us</h2>
-                                <span>Home / <a href="jang.html">About us</a></span>
+                                <h2>short-term carpool</h2>
+                                <span>Home / <a href="jang.html">단기카풀</a></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
- -->
+
 
             <div id="timeline-post">
                 <div class="container">
@@ -232,146 +237,6 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div> 
 
 
-            <div id="our-team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section">
-                                <h2>Our Team</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="authors">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="team-thumb">
-                                    <div class="author">
-                                        <img src="images/author1.jpg" alt="Tracy - templatemo">
-                                    </div>
-                                    <div class="overlay">
-                                        <div class="author-caption">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="author-details">
-                                     <h2>Tracy</h2>
-                                     <span>Designer</span>
-                                 </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="team-thumb">
-                                    <div class="author">
-                                        <img src="images/author2.jpg" alt="Mary - templatemo">
-                                    </div>
-                                    <div class="overlay">
-                                        <div class="author-caption">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="author-details">
-                                     <h2>Mary</h2>
-                                     <span>Developer</span>
-                                 </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="team-thumb">
-                                    <div class="author">
-                                        <img src="images/author3.jpg" alt="Julia - templatemo">
-                                    </div>
-                                    <div class="overlay">
-                                        <div class="author-caption">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="author-details">
-                                     <h2>Julia</h2>
-                                     <span>Director</span>
-                                 </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="team-thumb">
-                                    <div class="author">
-                                        <img src="images/author4.jpg" alt="Linda - templatemo">
-                                    </div>
-                                    <div class="overlay">
-                                        <div class="author-caption">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                            </ul>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="author-details">
-                                     <h2>Linda</h2>
-                                     <span>Manager</span>
-                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-            <div id="testimonails">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section">
-                                <h2>Testimonials and Awards</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="testimonails-slider">
-                              <ul class="slides">
-                                <li>
-                                    <div class="testimonails-content">
-                                        <p>Nam nec risus feugiat dui ultrices dignissim. Morbi ex purus, commodo a tristique eu, mollis a nisi. Pellentesque in enim sit amet tellus ornare fringilla eget eu arcu. Nam ultricies dolor et mi tempor, non pulvinar felis sollicitudin.</p>
-                                        <h6>Jennifer - <a href="#">Chief Designer</a></h6>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="testimonails-content">
-                                        <p>Fusce fermentum libero fringilla odio pharetra malesuada. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultrices lectus quis consequat fringilla. Mauris non ex et purus sollicitudin.</p>
-                                        <h6>Laureen - <a href="#">Marketing Executive</a></h6>
-                                    </div> 
-                                </li>
-                                <li>
-                                    <div class="testimonails-content">
-                                        <p>Sed egestas tincidunt mollis. Suspendisse rhoncus vitae enim et faucibus. Ut dignissim nec arcu nec hendrerit sed arcu odio, sagittis vel diam in, malesuada malesuada risus. Aenean a sem leo. Nam ultricies dolor et mi tempor, non pulvinar felis sollicitudin.</p>
-                                        <h6>Tanya - <a href="#">Creative Director</a></h6>
-                                    </div>
-                                </li>
-                              </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
 
