@@ -13,21 +13,6 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("jang")
-	public String aboutUs(){
-		return "jang";
-	}
-	
-	@RequestMapping("goschool")
-	public String products(){
-		return "goschool";
-	}
-	
-	@RequestMapping("taxi")
-	public String contactUs(){
-		return "taxi";
-	}
-	
 	@RequestMapping("index")
 	public String index(){
 		return "index";
@@ -37,5 +22,30 @@ public class HomeController {
 	public String dan(){
 		return "dan";
 	}
+	
+	@RequestMapping("jang")
+	public String aboutUs(){
+		return "jang";
+	}
+	
+	@RequestMapping("goschool")
+	public String goschool(){
+		return "goschool";
+	}
+	
+	@RequestMapping("taxi")
+	public String taxi(){
+		return "taxi";
+	}
+	
+	@RequestMapping("community")
+	public String community(){
+		return "community";
+	}
+	
+	@RequestMapping("customer")
+	public String customer(){
+		return "customer";
+	}	
 }
 
