@@ -52,7 +52,7 @@
                                     <a href="#">로그인</a>
                                     <a href="#">회원가입</a>
                                     <a href="#">고객센터</a>
-                                    <a href="#"><img src="images/face4.png"></a></li>
+                                    <a href="#"><img src="images/face4.png"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -117,10 +117,62 @@
             </div>
 
 
+  			<div id="timeline-post">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                        	<fieldset> 
+							<legend> 
+							 빠른검색
+				 			</legend> 
+				 			<form action="./example2.php" method="GET"> 
+				 				<p> 
+				 					카풀 : 
+				 					<select name="type"> 
+				 						<option value="short">단기카풀</option> 
+				 						<option value="long">장기카풀</option> 
+				 						<option value="taxi">택시카풀</option> 
+				 						<option value="school">고스쿨</option> 
+									</select> 
+				 				 
+				 				
+				 				
+				 				<div>
+								         성별 :
+								    <input name="ss" id="ss" type="radio" checked="" value="1"><span>남자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>여자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>모두</span> <br>
+								    <br>
+				                                            인증 여부 :				 
+								    <input name="sss" id="sss" type="checkbox" checked="" value="3"><span>휴대전화 인증</span>
+								    <input name="sss" id="sss" type="checkbox" value="3"><span>페이스북 인증</span><br>
+								    <br>
+								         흡연 여부 :
+								    <input name="ss" id="ss" type="radio" checked="" value="2"><span>흡연 가능</span>
+								    <input name="ss" id="ss" type="radio" value="2"><span>흡연 불가</span> <br>
+				 
+								    
+							</div>
+							</p>
+				 				<input type="submit" value="검색하기"/> 
+				 			</form> 
+				 		</fieldset>  
+                        </div>
+                        <div class="col-md-10">
+                        <h3>목록</h3>
+                            <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>	
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="space50"></div>
+                    
+               
+                </div>
+            </div>
 
 
-
-            <div id="goschool-post">
+            <!-- <div id="goschool-post">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -130,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--  
+                     
                     <div class="row">
                         <div class="filters col-md-12 col-xs-12">
                             <ul id="filters" class="clearfix">
@@ -362,9 +414,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>    --> 
+                    </div>    
                 </div>
-            </div>
+            </div> -->
 
 
 

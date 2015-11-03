@@ -12,6 +12,19 @@ Grill Template
 http://www.templatemo.com/free-website-templates/417-grill
 
 -->
+	<style>
+	@import url (http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	body{
+	font-family : '맑은 고딕';
+	}
+		
+		#heading {
+		  background-image: url(images/slide1.jpg);
+		  height: 140px;
+		}
+	
+	</style>
+	
     <head>
         <meta charset="utf-8">
         <title>About - Grill Template</title>
@@ -28,19 +41,6 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/testimonails-slider.css">
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-        <script type="text/javascript"	src="https://apis.skplanetx.com/tmap/js?version=1&format=javascript&appKey=5d5accbf-7745-315f-9ccc-fedc53a0f0b1"></script>
-		<script src="js/jquery-2.1.4.js"></script>
-		<script src="js/routes.js"></script>
-		<style>
-			.path{
-				float: left;
-			}
-			
-		#heading {
-		  background-image: url(images/br2.jpg);
-		  height: 140px;
-		}
-		</style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -119,44 +119,61 @@ http://www.templatemo.com/free-website-templates/417-grill
                 </div>
             </div>
 
-
-            <div id="timeline-post">
+			<div id="timeline-post">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section">
-                                <h2>Who We Are</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
+                        <div class="col-md-2">
+                        	<fieldset> 
+							<legend> 
+							 빠른검색
+				 			</legend> 
+				 			<form action="./example2.php" method="GET"> 
+				 				<p> 
+				 					카풀 : 
+				 					<select name="type"> 
+				 						<option value="short">단기카풀</option> 
+				 						<option value="long">장기카풀</option> 
+				 						<option value="taxi">택시카풀</option> 
+				 						<option value="school">고스쿨</option> 
+									</select> 
+				 				 
+				 				
+				 				
+				 				<div>
+								         성별 :
+								    <input name="ss" id="ss" type="radio" checked="" value="1"><span>남자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>여자</span>
+								    <input name="ss" id="ss" type="radio" value="1"><span>모두</span> <br>
+								    <br>
+				                                            인증 여부 :				 
+								    <input name="sss" id="sss" type="checkbox" checked="" value="3"><span>휴대전화 인증</span>
+								    <input name="sss" id="sss" type="checkbox" value="3"><span>페이스북 인증</span><br>
+								    <br>
+								         흡연 여부 :
+								    <input name="ss" id="ss" type="radio" checked="" value="2"><span>흡연 가능</span>
+								    <input name="ss" id="ss" type="radio" value="2"><span>흡연 불가</span> <br>
+				 
+								    
+							</div>
+							</p>
+				 				<input type="submit" value="검색하기"/> 
+				 			</form> 
+				 		</fieldset>  
+                        </div>
+                        <div class="col-md-10">
+                        <h3>목록</h3>
+                            <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>	
+                           
                         </div>
                     </div>
                     
-                    <div class="row">
-                        <div class="col-md-4">
-                        	<h3>Our Company</h3>
-                            <p>Nulla sodales ut tellus blandit accumsan. Aliquam erat volutpat. Morbi quis vestibulum erat. Nam malesuada lobortis tempus. Fusce fermentum libero fringilla odio pharetra malesuada. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ultrices lectus quis consequat fringilla. Mauris non ex et purus sollicitudin tempus vitae quis nisi.</p>
-                        </div>
-                        <div class="col-md-8">
-                        	<div id="map_div"></div>
-							<div style="border: 1px solid gold; padding: 10px; width : 650px; min-height: 100px; overflow: auto;">
-								<div style="width : 120px"> 출발<input type="text" id="loc1"></div>
-								<div style="width : 650px;">
-								<div style="width : 120px" class="path"> 경유지1<input type="text" id="pass1"></div>
-								<div style="width : 120px" class="path">경유지2<input type="text" id="pass2"></div>
-								<div style="width : 120px" class="path">경유지3<input type="text" id="pass3"></div>
-								<div style="width : 120px" class="path">경유지4<input type="text" id="pass4"></div>
-								<div style="width : 120px" class="path">경유지5<input type="text" id="pass5"></div>
-								</div>
-								<div style="width : 120px"> 도착<input type="text" id="loc3"></div>
-							    <button>경로검색</button><hr>
-								거리 : <span id="meter"></span><br>
-								시간 : <span id="time"></span><br>
-								금액 : <span id="money"></span><br>
-						   </div>
-						</div>
-                    </div>
+                    <div class="space50"></div>
                     
-                   <!--  <div class="space50"></div>
+               
+                </div>
+            </div>
+            
+                <!--  <div class="space50"></div>
                     
                     <div class="row">
                         <div class="col-md-2 col-sm-4">

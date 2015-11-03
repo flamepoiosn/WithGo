@@ -55,7 +55,7 @@
                                     <a href="#">로그인</a>
                                     <a href="#">회원가입</a>
                                     <a href="#">고객센터</a>
-                                    <a href="#"><img src="images/face4.png"></a></li>
+                                    <a href="#"><img src="images/face4.png"></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
