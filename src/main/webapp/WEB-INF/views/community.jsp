@@ -38,7 +38,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 	height: 140px;
 }
 
-.container{
+.content{
 	margin: 30px;
 }
 </style>
@@ -98,6 +98,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 		</div>
 	</div>
 
+	<div class="content">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
@@ -110,11 +111,12 @@ http://www.templatemo.com/free-website-templates/417-grill
 						</div>		
 					</div>		
 					<div class="col-md-10">
-						게시판부분
+						커뮤니티 메인 부분
 					</div>		
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 
