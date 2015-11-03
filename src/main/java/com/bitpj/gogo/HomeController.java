@@ -94,5 +94,11 @@ public class HomeController {
 		
 		return "redirect:";
 	}
+	
+	@RequestMapping("board")
+	public String board(HttpServletRequest request, Model model){
+		////////////////
+		return "board";
+	}
 }
 

@@ -15,13 +15,13 @@ http://www.templatemo.com/free-website-templates/417-grill
 	<style>
 	@import url (http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 	body{
-	font-family : '맑은 고딕';
+		font-family : '맑은 고딕';
 	}
 		
-		#heading {
-		  background-image: url(images/slide1.jpg);
-		  height: 140px;
-		}
+	#heading {
+	  background-image: url(images/slide1.jpg);
+	  height: 140px;
+	}
 	
 	</style>
 	
