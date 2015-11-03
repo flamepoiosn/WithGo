@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	
+	xmlns:tool="http://www.springframework.org/schema/tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd
+	http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd">
+
 	<!-- Root Context: defines shared resources visible to all other web components -->
-		
+	<mongo:mongo host="localhost" port="27017" />
+	<mongo:db-factory mongo-ref="mongo" dbname="test"/>
+	
+	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+	 <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
+	</bean>
 </beans>
