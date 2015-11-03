@@ -17,6 +17,10 @@ public class BListCmd implements Cmd{
 		HttpServletRequest request = (HttpServletRequest)map.get("request");
 		
 		String category = request.getParameter("category");
+		if(category == null){
+			category = "greeting";
+		}
+		
 		String strPage = request.getParameter("page");
 		if(strPage == null){
 			strPage = "1";

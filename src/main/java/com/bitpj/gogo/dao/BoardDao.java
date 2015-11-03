@@ -60,4 +60,26 @@ public class BoardDao {
 		String query = "select * from board where bno="+bno;
 		return template.queryForObject(query, new BeanPropertyRowMapper<BoardVo>(BoardVo.class));
 	}
+	
+	public void delete(final int bno){
+		String query = "delete from board where bno=?";
+		template.update(query, new PreparedStatementSetter(){
+			@Override
+			public void setValues(PreparedStatement pstmt) throws SQLException {
+				pstmt.setInt(1, bno);
+			}
+		});
+	}
+	
+	public void update(final BoardVo vo){
+		String query = "update board set title=?, content=? where bno=?";
+		template.update(query, new PreparedStatementSetter(){
+			@Override
+			public void setValues(PreparedStatement pstmt) throws SQLException {
+				pstmt.setString(1, vo.getTitle());
+				pstmt.setString(2, vo.getContent());
+				pstmt.setInt(3, vo.getBno());
+			}
+		});
+	}
 }

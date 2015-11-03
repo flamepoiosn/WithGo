@@ -9,8 +9,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.bitpj.gogo.command.BDelCmd;
 import com.bitpj.gogo.command.BListCmd;
 import com.bitpj.gogo.command.BReadCmd;
+import com.bitpj.gogo.command.BUpdateCmd;
 import com.bitpj.gogo.command.BWriteCmd;
 import com.bitpj.gogo.command.Cmd;
 import com.bitpj.gogo.command.LoginCmd;
@@ -132,6 +134,31 @@ public class HomeController {
 		command.execute(model);
 		
 		return "boardRead";
+	}
+	
+	@RequestMapping("boardDel")
+	public String boardDel(HttpServletRequest request, Model model){
+		model.addAttribute("request", request);
+		command = new BDelCmd();
+		command.execute(model);
+		
+		return "redirect:board?category="+request.getParameter("category");
+	}
+	
+	@RequestMapping("boardUpdateForm")
+	public String boardUpdateForm(BoardVo vo, Model model){
+		model.addAttribute("vo", vo);
+		
+		return "boardUpdateForm";
+	}
+	
+	@RequestMapping("boardUpdate")
+	public String boardUpdate(BoardVo vo, Model model){
+		model.addAttribute("vo", vo);
+		command = new BUpdateCmd();
+		command.execute(model);
+		
+		return "redirect:boardRead?no="+vo.getBno();
 	}
 }
 

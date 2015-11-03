@@ -150,7 +150,7 @@ table tr th:last-child{
 										<input type="hidden" name="hit" value="${vo.hit }">
 										(조회수 : ${vo.hit })	
 									</div>
-									<form method="post" action="commUpdateForm">	
+									<form method="post" action="boardUpdateForm">	
 										<input type="hidden" name="bno" value="${vo.bno }">
 										<input type="hidden" name="category" value="${vo.category }">
 										<table class="table table-condensed">
