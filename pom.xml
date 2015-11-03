@@ -82,6 +82,14 @@
 			</exclusions>
 			<scope>runtime</scope>
 		</dependency>
+		
+		<!-- 몽고디비 -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>1.8.0.RELEASE</version>
+		</dependency>
+		
 
 		<!-- @Inject -->
 		<dependency>
