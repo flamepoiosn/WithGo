@@ -9,9 +9,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.bitpj.gogo.command.BListCmd;
+import com.bitpj.gogo.command.BReadCmd;
+import com.bitpj.gogo.command.BWriteCmd;
 import com.bitpj.gogo.command.Cmd;
 import com.bitpj.gogo.command.LoginCmd;
 import com.bitpj.gogo.util.Constant;
+import com.bitpj.gogo.vo.BoardVo;
 
 
 @Controller
@@ -95,10 +99,39 @@ public class HomeController {
 		return "redirect:";
 	}
 	
-	@RequestMapping("board")
+	@RequestMapping("/board")
 	public String board(HttpServletRequest request, Model model){
-		////////////////
+		model.addAttribute("request", request);
+		command = new BListCmd();
+		command.execute(model);
+		
 		return "board";
+	}
+	
+	@RequestMapping("boardWriteForm")
+	public String boardWriteForm(HttpServletRequest request, Model model){
+		String category = request.getParameter("category");
+		model.addAttribute("category", category);
+		
+		return "boardWriteForm";
+	}
+	
+	@RequestMapping("boardWrite")
+	public String boardWrite(BoardVo vo, Model model){
+		model.addAttribute("vo", vo);
+		command = new BWriteCmd();
+		command.execute(model);
+		
+		return "redirect:board?category="+vo.getCategory();
+	}
+	
+	@RequestMapping("boardRead")
+	public String boardRead(HttpServletRequest request, Model model){
+		model.addAttribute("request", request);
+		command = new BReadCmd();
+		command.execute(model);
+		
+		return "boardRead";
 	}
 }
 
