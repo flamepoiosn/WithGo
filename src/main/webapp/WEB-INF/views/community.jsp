@@ -29,7 +29,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 
 <style>
 #heading {
-		  background-image: url(images/board.png);
+		  background-image: url(images/community.png);
 		  height: 140px;
 		}
 
@@ -106,8 +106,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Con</h2>
-                                <span>Home / <a href="contact-us.html">Contact Us</a></span>
+                                <h2>Community</h2>
+                                <span>Home / <a href="contact-us.html">커뮤니티</a></span>
                             </div>
                         </div>
                     </div>
@@ -120,8 +120,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-section">
-                                <h2>Feel free to send a message</h2>
-                                <img src="images/under-heading.png" alt="" >
+                                <h2></h2>
+                                <img src="" alt="" >
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                                 <div class="product-item col-md-12">
                                     <div class="row">
                                         <div class="col-md-8">  
-                                            <div class="message-form">
+                                            <!--  <div class="message-form">
                                                 <form action="#" method="post" class="send-message">
                                                     <div class="row">
                                                     <div class="name col-md-4">
@@ -152,10 +152,12 @@ http://www.templatemo.com/free-website-templates/417-grill
                                                     <div class="send">
                                                         <button type="submit">Send</button>
                                                     </div>
-                                                </form>
+                                                </form>-->
                                             </div>
                                         </div>
                                         <div class="col-md-4">
+                                            
+                                            <!-- 
                                             <div class="info">
                                                 <p>Duis at pharetra neque, ut condimentum, purus nisl pretium quam, in pulvinar velit massa id elit. </p>
                                                 <ul>
@@ -163,26 +165,16 @@ http://www.templatemo.com/free-website-templates/417-grill
                                                     <li><i class="fa fa-globe"></i>456 New Dagon City Studio, Yankinn, Digital Estate</li>
                                                     <li><i class="fa fa-envelope"></i><a href="#">info@company.com</a></li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
+                                            
                                         </div>     
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section">
-                                <h2>Find Us On Map</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id="googleMap" style="height:340px;"></div>
-                        </div>
-                    </div>     
+                  
+                        
                 </div>
             </div>
 

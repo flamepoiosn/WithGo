@@ -27,6 +27,14 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/testimonails-slider.css">
 
+
+<style>
+
+#heading {
+		  background-image: url(images/slide2.jpg);
+		  height: 140px;
+		}
+</style>
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -98,8 +106,8 @@ http://www.templatemo.com/free-website-templates/417-grill
                     <div class="row">
                         <div class="col-md-12">
                             <div class="heading-content">
-                                <h2>Single Product</h2>
-                                <span>Home / <a href="single-post.html">Single Post</a></span>
+                                <h2>customer service center</h2>
+                                <span>Home / <a href="single-post.html">고객센터</a></span>
                             </div>
                         </div>
                     </div>
@@ -110,6 +118,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 
 
 
+           <!--
             <div id="product-post">
                 <div class="container">
                     <div class="row">
@@ -320,7 +329,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                     </div>     
                 </div>
             </div>
-
+ 			-->
 
 			<footer>
                 <div class="container">
