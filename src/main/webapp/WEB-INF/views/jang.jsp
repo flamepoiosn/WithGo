@@ -107,7 +107,7 @@
                         <div class="col-md-2">
                         	<fieldset> 
 							<legend> 
-							 빠른검색
+							 
 				 			</legend> 
 				 			<form action="./example2.php" method="GET"> 
 				 				<p> 

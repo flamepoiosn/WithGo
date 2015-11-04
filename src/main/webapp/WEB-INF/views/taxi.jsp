@@ -28,7 +28,7 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/testimonails-slider.css">
 		<style>
 		#heading {
-		  background-image: url(images/tax.png);
+		  background-image: url(images/slide1.jpg);
 		  height: 140px;
 		}
 		</style>

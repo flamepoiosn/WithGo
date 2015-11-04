@@ -23,6 +23,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 	  height: 140px;
 	}
 	
+
 	</style>
 	
     <head>
@@ -104,7 +105,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 			<div id="timeline-post">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-4">
                         	<fieldset> 
 							<legend> 
 							 빠른검색
@@ -142,7 +143,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 				 			</form> 
 				 		</fieldset>  
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-8">
                         <h3>목록</h3>
                             <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>	
                            

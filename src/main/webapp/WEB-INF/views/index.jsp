@@ -41,7 +41,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/pool2.jpeg" title="Grill Template" alt="Grill Website Template" ></a>
+                                    <a href="index.html"><img src="images/pool2.jpeg" title="withGoe" alt="Grill Website Template" ></a>
                                
                                 </div>
                             </div>
@@ -84,22 +84,15 @@ http://www.templatemo.com/free-website-templates/417-grill
                   <ul class="slides">
                     <li>
                         <div class="slider-caption">
-                            <h1>Play,WITH GO</h1>
-                            <p>바쁜아침 ! 위드고와 함께하세요
+                            <h1></h1>
+                            <p>
                             </p>
                            
                         </div>
                       <img src="images/car6.jpg" width="300" height="500"alt="" />
                     </li>
                     
-                    <li>
-                        <div class="slider-caption">
-                            <h1>play,WITH GO</h1>
-                            <p>바쁜아침 ! 위드고와 함께하세요</p>
-                            
-                        </div>
-                      <img src="images/car8.jpg"width="300" height="500" alt="" />
-                    </li>
+                  
                   </ul>
                 </div>
              
