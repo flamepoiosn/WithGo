@@ -37,75 +37,7 @@ http://www.templatemo.com/free-website-templates/417-grill
 
 
 
-label {
-  width: 110px;
-  border-radius: 3px;
-  border: 1px solid #D1D3D4
-}
-
-/* hide input */
-input.radio:empty {
-	margin-left: -999px;
-}
-
-/* style label */
-input.radio:empty ~ label {
-	position: relative;
-	float: left;
-	line-height: 2.5em;
-	text-indent: 3.25em;
-	margin-top: 2em;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-
-input.radio:empty ~ label:before {
-	position: absolute;
-	display: block;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	content: '';
-	width: 2.5em;
-	background: #D1D3D4;
-	border-radius: 3px 0 0 3px;
-}
-
-/* toggle hover */
-input.radio:hover:not(:checked) ~ label:before {
-	content:'\2714';
-	text-indent: .9em;
-	color: #C2C2C2;
-}
-
-input.radio:hover:not(:checked) ~ label {
-	color: #888;
-}
-
-/* toggle on */
-input.radio:checked ~ label:before {
-	content:'\2714';
-	text-indent: .9em;
-	color: #9CE2AE;
-	background-color: #4DCB6D;
-}
-
-input.radio:checked ~ label {
-	color: #777;
-}
-
-/* radio focus */
-input.radio:focus ~ label:before {
-	box-shadow: 0 0 0 3px #999;
-}
-
-
-
-
-
+		
 
 
 
@@ -207,67 +139,75 @@ input.radio:focus ~ label:before {
 <div id="timeline-post">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                         	<fieldset> 
 							<legend> 
 							 
 				 			</legend> 
-				 			<form action="./example2.php" method="GET" class="form-inline" role="form"> 
-				 				<div class="form-group">
-				 					<input type="radio" name="radio" id="radio1" class="radio" checked/>
-									<label for="radio1">남자</label>
-				 				</div>
-				 	
-								<div class="form-group">
-									<input type="radio" name="radio" id="radio2" class="radio"/>
-									<label for="radio2">여자</label>
-								</div>
-								
-								<div class="form-group">
-									<input type="radio" name="radio" id="radio3" class="radio"/>
-									<label for="radio3">모두</label>
-								</div>
-								
-								
-								<div class="form-group">
-									<input type="radio" name="radio" id="radio4" class="radio"/>
-									<label for="radio4">휴대폰</label>
-								</div>
+
+				 			<form action="./example2.php" method="GET"  role="form"> 
+
+									
+									
+									<div class="btn-group">
+									<p></p>
+									<p></p>
+									<p></p>
+									<p>조건</p>
+									<button type="button" class="btn btn-default">모두</button>
+									<button type="button" class="btn btn-default">타세요</button>
+									<button type="button" class="btn btn-default">탈래요</button>
+									</div>
 								
 								
-								<div class="form-group">
-									<input type="radio" name="radio" id="radio5" class="radio"/>
-									<label for="radio5">페이스북</label>
-								</div>
-								
-								
-								
-								
+									
+									<div class="btn-group">
+									<p></p>
+									<p>성별</p>
+									<button type="button" class="btn btn-default">모두</button>
+									<button type="button" class="btn btn-default">남자</button>
+									<button type="button" class="btn btn-default">여자</button>
+									</div>
+									
+									
+									<div class="btn-group">
+									<p></p>
+									<p>흡연</p>
+									<button type="button" class="btn btn-default">모두</button>
+									<button type="button" class="btn btn-default">가능</button>
+									<button type="button" class="btn btn-default">불가</button>
+									</div>
+									<div class="btn-group">
+									<p></p>
+									<p>인증</p>
+									<button type="button" class="btn btn-default">모두</button>
+									<button type="button" class="btn btn-default">facebook</button>
+									<button type="button" class="btn btn-default">휴대폰</button>
+									</div>
+									
+									
+									
+									
+									
+									</form>
+
+									
+									</div>
+									
+									<div class="col-md-9">
+                        <h3>목록</h3>
+                            
+                        <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
 						
-				 			</form>
-				 			
-				 			
-				 			 
-				 			
-				 			
-				 			
-				 			
-				 			
-				 			
-				 			
-				 			
+     
+                        </div>
+	
+						</div>
+
+			
 				 		</fieldset>  
                         </div>
-                        
-                        
-                       
-                        
-                        
-                        <div class="col-md-8">
-                        <h3>목록</h3>
-                            <p>줄줄줄~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>	
-                           
-                        </div>
+
                     </div>
                     
                     <div class="space50"></div>
@@ -275,25 +215,6 @@ input.radio:focus ~ label:before {
                
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
