@@ -220,8 +220,13 @@ body { #loginForm span{ float:right;
 
 
 		<tr>
-			<td></td>
-			<td><input type="submit" name="submit" value="회원가입" /></td>
+		
+			<td colspan="2"  align="center">	
+			<td><input type="submit" class="btn btn-primary form-control" value="회원가입" onclick="location.href='loginForm'"></td>
+			
+			
+			
+			
 		</tr>
 	</table>
 </body>
